@@ -1,0 +1,51 @@
+
+menu = [{
+
+        "id": "01",
+        "name":"Mezzepenne alla Norma",
+        "description":"Original Italian pasta, with eggplant, fresh tomatoes and cheese",
+        "img":"img/pasta1.webp",
+        "price": 5,
+        "qtty": 0
+        
+    },{  
+        "id": "02",
+        "name":"Torcelli con Edamame ",
+        "description":"Pasta fusion-style, with edamame and walnuts",
+        "img":"img/pasta2.webp",
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "03",
+        "name":"Mezzepenne con prosciutto ",
+        "description":"pasta with prosciutto crudo and walnuts",
+        "img":"img/pasta3.webp",
+        "price": 7,
+        "qtty": 0
+        
+    },{
+        "id": "04",
+        "name":"Bucatini con sopressata e rucola",
+        "description":"Salty pasta with special salami and arugula",
+        "img":"img/pasta4.webp",
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "05",
+        "name":"Fettuccine al diavolo di mare",
+        "description":"Fusion style pasta soup with seafood, asparagus and chilli",
+        "img":"img/pasta5.webp",
+        "price": 12,
+        "qtty": 0
+        
+    },{
+        "id": "06",
+        "name":"Torcelli escalivada-style salad",
+        "description":"Spanish-italian mash-up salad, with roasted wegetable and pasta",
+        "img":"img/pasta6.webp",
+        "price": 9,
+        "qtty": 0
+        
+   }]

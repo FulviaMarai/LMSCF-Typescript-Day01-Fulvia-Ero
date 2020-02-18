@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typescript exercise</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">   
+    <link rel="stylesheet" href="css/mystyle.css">                            
+
+</head>
+
+<body>
+        <div class="container-fluid">
+            <div class="tm-body">
+                <div class="tm-sidebar sticky">
+                    <section id="welcome" class="tm-content-box tm-banner margin-b-15">
+                        <div class="tm-banner-inner">
+                            <img class="logo" src="img/Logo.png" alt="logo">                 
+                        </div>                    
+                    </section>
+                    <nav class="tm-main-nav">
+                        <ul class="tm-main-nav-ul">
+                            <li class="tm-nav-item"><a href="index.html" class="tm-nav-item-link tm-button active">Menu</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="#" class="tm-nav-item-link tm-button">Location</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="#" class="tm-nav-item-link tm-button">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="tm-main-content tm-gallery-container">  
+                    <div class="container-fluid">
+                    <div class="row" id="gallery"></div>
+                    </div>
+                </div>
+
+            <footer class="tm-footer text-right">
+                <p>Copyright &copy; <span class="tm-current-year"></span> Ero & Fufi </p>
+            </footer> 
+
+        </div> 
+         
+        <script type="text/javascript"  src="menu.json"></script>
+        <script>  
+
+
+ for( let i = 0; i < menu.length; i++){
+    document.getElementById("gallery").innerHTML += `
+        <div class="col-4">
+            <img src="${menu[i].img}" width="250"><br>  
+            <p>${menu[i].name}</p>
+            <p>${menu[i].price} €</p>
+            <p>${menu[i].description}</p>
+            <p class="btn btn-success addToCart">add to cart</p>
+        </div>
+    `;
+    console.log("hi")
+}
+
+        </script>
+
+    </body>
+    </html>
