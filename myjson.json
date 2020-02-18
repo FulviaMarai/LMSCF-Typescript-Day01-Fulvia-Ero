@@ -1,0 +1,51 @@
+var menu = [
+    {
+        "id": "01",
+        "name":"Tagliatelle alla Bolognese",
+        "description":"Original traditional Italian pasta alla Bolognese with tomatoes and minced meat,wine and spice",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "02",
+        "name":"Orecchiette alla Pugliese ",
+        "description":"Original traditional Italian pasta alla Pugliese with tomatoes and vegetables",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "03",
+        "name":"Rigatoni alla Norma",
+        "description":"Original traditional Italian pasta with tomatoes, artichokes, black olives and eggplant",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "04",
+        "name":"Spaghetti aglio olio e peperoncino",
+        "description":"Original traditional Italian pasta,really easy, with garlic, oil and chilli",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "05",
+        "name":"Spaghetti alla Carbonara",
+        "description":"Original traditional Italian pasta with raw egg, pecurin cheese and special bacon",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },{
+        "id": "06",
+        "name":"Farfalle primavera",
+        "description":"Original traditional Italian pasta with fresh vegetables",
+        "img":,
+        "price": 8,
+        "qtty": 0
+        
+    },
+]
