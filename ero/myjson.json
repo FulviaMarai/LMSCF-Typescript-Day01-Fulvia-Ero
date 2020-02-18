@@ -7,7 +7,7 @@ var menu = [
         "price": 8,
         "qtty": 0
         
-    },{  
+    },{
         "id": "02",
         "name":"Orecchiette alla Pugliese ",
         "description":"Original traditional Italian pasta alla Pugliese with tomatoes and vegetables",
